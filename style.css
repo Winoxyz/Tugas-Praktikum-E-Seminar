@@ -1,0 +1,16 @@
+/* ini codingan buat device dekstop */
+body{
+    background-color: blue;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+@media screen and (max-width: 720px){
+    body{
+        background-color: grey;
+    }
+    h1{
+        color: white;
+    }    
+}
